@@ -1,0 +1,41 @@
+[0.673s] Invoking command in '/home/sato/ros2_ws/src/mypkg': PYTHONPATH=/home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/sato/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/sato/ros2_ws/src/mypkg/install/mypkg --record /home/sato/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.920s] running egg_info
+[0.920s] creating build/mypkg/mypkg.egg-info
+[0.921s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.921s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.921s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.922s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.922s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.922s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.965s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.966s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] creating /home/sato/ros2_ws/src/mypkg/build/mypkg/build
+[0.967s] creating /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.967s] creating /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.968s] copying mypkg/talker.py -> /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.968s] copying mypkg/listener.py -> /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.968s] copying mypkg/__init__.py -> /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.968s] running install
+[0.969s] running install_lib
+[0.969s] creating /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.970s] copying /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.970s] copying /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.970s] copying /home/sato/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.970s] byte-compiling /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[0.971s] byte-compiling /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[0.971s] byte-compiling /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc
+[0.971s] running install_data
+[0.972s] creating /home/sato/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.973s] creating /home/sato/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.973s] creating /home/sato/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.973s] copying resource/mypkg -> /home/sato/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.973s] copying package.xml -> /home/sato/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.973s] running install_egg_info
+[0.975s] Copying build/mypkg/mypkg.egg-info to /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.976s] running install_scripts
+[0.998s] Installing listener script to /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.999s] Installing talker script to /home/sato/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.999s] writing list of installed files to '/home/sato/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.023s] Invoked command in '/home/sato/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/sato/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/sato/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/sato/ros2_ws/src/mypkg/install/mypkg --record /home/sato/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
