@@ -17,7 +17,7 @@ setup(
     zip_safe=True,
     maintainer='sato',
     maintainer_email='nao10701048@gmail.com',
-       description='a package for practice',
+    description='a package for practice',
     license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
